@@ -1,0 +1,167 @@
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 800;
+  background: #0097a7;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  color: #333333;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  background-color: #007ee5; /* fallback color if gradients are not supported */
+  background-image: -webkit-linear-gradient(top, #fff, #007ee5); /* For Chrome 25 and Safari 6, iOS 6.1, Android 4.3 */
+  background-image: -moz-linear-gradient(top, #fff, #007ee5); /* For Firefox (3.6 to 15) */
+  background-image: -o-linear-gradient(top, #fff, #007ee5); /* For old Opera (11.1 to 12.0) */
+  background-image: linear-gradient(to bottom, #fff, #007ee5);
+}
+
+.aboutMe{
+  font-size: 18px;
+}
+
+.hero {
+  margin-top: -100px;
+  height: 120vh;
+  width: 100vw;
+}
+
+.intro {
+  text-align: center;
+  max-width: 60vw;
+  margin: 30vh auto auto;
+  background: #fff;
+  background: rgba(255, 255, 255, 0.75);
+  padding: 5px;
+  border-radius: 5px;
+  color: #007ee5;
+}
+
+.more {
+  text-align: center;
+  padding-top: 20vh;
+}
+
+.row {
+  margin-top: 50px;
+}
+
+.preview {
+  height: 240px;
+  width: 380px;
+  padding-top: 10px;
+}
+
+.ask {
+  text-align: center;
+  font-size: 24px;
+}
+
+.appeal {
+    margin: 150px auto;
+    background: #fff;
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 5px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.centered .fa {
+  margin: 25px;
+  color: grey;
+}
+
+.toggleproject {
+  height: 75px;
+  width: 100%;
+  margin: 20px 0;
+  border-radius: 5px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: .60;
+  -webkit-box-shadow: 5px 5px 20px 0px rgba(12,79,79,1);
+  -moz-box-shadow: 5px 5px 20px 0px rgba(12,79,79,1);
+  box-shadow: 5px 5px 20px 0px rgba(12,79,79,1);
+}
+
+.toggleproject:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.toggleproject p {
+  margin: 30px auto auto 20px;
+  font-size: 30px;
+  color: black;
+  text-shadow: 1px 1px 2px #333;
+}
+
+.selected {
+  opacity: 1;
+}
+
+.scroller {
+  position: fixed;
+  top: 0;
+  right: 20px;
+  z-index: 999;
+}
+
+.demo {
+  width: 70%;
+}
+
+.techUsed {
+  color: #525252;
+  font-weight: 900;
+}
+
+.avatar {
+  margin-left: 15px;
+  width:85%;
+  border-radius: 5px;
+}
+
+#photoWrapper {
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+.base {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.hi {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#work {
+  min-height: 900px;
+}
+
+#downArrow {
+  color: #007ee5;
+  transition: 0.5s;
+}
