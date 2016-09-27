@@ -46,7 +46,7 @@ footer {
   max-width: 60vw;
   margin: 30vh auto auto;
   background: #fff;
-  background: rgba(255, 255, 255, 0.75);
+  background: rgba(255, 255, 255, 0.3);
   padding: 5px;
   border-radius: 5px;
   color: #007ee5;
@@ -75,7 +75,7 @@ footer {
 .appeal {
     margin: 150px auto;
     background: #fff;
-    background: rgba(255, 255, 255, 0.75);
+    background: rgba(255, 255, 255, 0.3);
     border-radius: 5px;
 }
 
