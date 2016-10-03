@@ -43,10 +43,10 @@ footer {
 
 .intro {
   text-align: center;
-  max-width: 60vw;
+  max-width: 25vw;
   margin: 30vh auto auto;
   background: #fff;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.1);
   padding: 5px;
   border-radius: 5px;
   color: #007ee5;
@@ -54,7 +54,7 @@ footer {
 
 .more {
   text-align: center;
-  padding-top: 20vh;
+  padding-top: 8vh;
 }
 
 .row {
@@ -139,20 +139,8 @@ footer {
   border-radius: 5px;
 }
 
-#photoWrapper {
-  position: relative;
-  left: 0;
-  top: 0;
-}
-
 .base {
   position: relative;
-  top: 0;
-  left: 0;
-}
-
-.hi {
-  position: absolute;
   top: 0;
   left: 0;
 }
@@ -163,5 +151,4 @@ footer {
 
 #downArrow {
   color: #007ee5;
-  transition: 0.5s;
 }
