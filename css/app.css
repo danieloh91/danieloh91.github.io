@@ -152,3 +152,7 @@ footer {
 #downArrow {
   color: #007ee5;
 }
+
+.card-title {
+  padding-top: 1vh;
+}
