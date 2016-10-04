@@ -14,7 +14,7 @@ $(document).ready(function() {
   $('.munilol').on('click', function(){
     toggleSelections();
     this.classList.add('selected');
-    $('#projectPic').html('<img src="assets/munilol.png" class="demo" />');
+    $('#projectPic').html('<img src="assets/munilolpic.png" class="demo" />');
     $('#projectTitle').html('<h4>Munilol</h4>');
     $('#projectLinks').html('<h5><a href="https://munilol.herokuapp.com" target="_blank"><i class="fa fa-laptop" aria-hidden="true"></i> Site</a>  | <a href="https://github.com/billhimmelsbach/munilol" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a></h5>');
     $('#projectDesc').html('Munilol is a web application with a mobile interface that allows for muni riders to document and share their daily muni experiences with other users. It also taps into the 511 API to notify users if there are disturbances on the muni lines. This was my first Ruby on Rails application developed alongside my classmates Bill Himmelsbach and David Kim. Through this project, I had extensive experiences of pair programming, reviewing one another\'s code, and utilizing a greater extent of Git as a version control tool.');
