@@ -47,7 +47,17 @@ footer {
   margin: 30vh auto auto;
   background: #fff;
   background: rgba(255, 255, 255, 0.1);
+  border: solid rgba(255, 255, 255, 0.3);
   padding: 5px;
+  border-radius: 5px;
+  color: #007ee5;
+}
+
+.info {
+  text-align: center;
+  max-width: 19vw;
+  margin: 30vh auto auto;
+  padding-top: 100px;
   border-radius: 5px;
   color: #007ee5;
 }
@@ -98,7 +108,7 @@ footer {
   opacity: .60;
   -webkit-box-shadow: 5px 5px 20px 0px rgba(12,79,79,1);
   -moz-box-shadow: 5px 5px 20px 0px rgba(12,79,79,1);
-  box-shadow: 5px 5px 20px 0px rgba(12,79,79,1);
+  box-shadow: 5px 5px 10px 0px rgba(#007ee5, 1);
 }
 
 .toggleproject:hover {
@@ -110,7 +120,7 @@ footer {
   margin: 30px auto auto 20px;
   font-size: 30px;
   color: black;
-  text-shadow: 1px 1px 2px #333;
+  text-shadow: 1px 1px 2px #747171;
 }
 
 .selected {
@@ -149,10 +159,18 @@ footer {
   min-height: 900px;
 }
 
-#downArrow {
-  color: #007ee5;
-}
-
 .card-title {
   padding-top: 1vh;
+}
+
+.homeroom {
+  background-image: url('../assets/Homeroom.png');
+}
+
+.munilol {
+  background-image: url('../assets/Munilol.png');
+}
+
+.applied {
+  background-image: url('../assets/Applied.png');
 }
